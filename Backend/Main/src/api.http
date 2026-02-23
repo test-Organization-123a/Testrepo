@@ -1,0 +1,124 @@
+@baseUrl = https://climbeasy.saxion.online/api
+@adminToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJlMDEzNDQwMi00NGNkLTQ2NDItYjBhNS1jMTFmYTFiMTk3ZTYiLCJyb2xlIjoiVVNFUiIsImlhdCI6MTc2MDYyMDg4MywiZXhwIjoxNzYwNzA3MjgzfQ.IwbJUx8Oi37lc44FI0nErLOR7diCjji7Mr0mL-3MJc8
+
+### AUTH
+
+# Login as Alice (USER)
+POST {{baseUrl}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "alice@example.com",
+  "password": "password123"
+}
+
+###
+
+# Login as Bob (USER)
+POST {{baseUrl}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "bob@example.com",
+  "password": "password123"
+}
+
+###
+
+# Login as Admin
+POST {{baseUrl}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin@example.com",
+  "password": "adminpass"
+}
+
+### CATEGORIES
+
+# Get all categories (any logged in user)
+GET {{baseUrl}}/categories
+Authorization: Bearer {{adminToken}}
+
+###
+
+# Get single category (Climbing Shoes)
+GET {{baseUrl}}/categories/
+Authorization: Bearer {{adminToken}}
+
+###
+
+# Create category (admin only)
+POST {{baseUrl}}/categories
+Authorization: Bearer {{adminToken}}
+Content-Type: application/json
+
+{
+  "name": "Ropes",
+  "description": "Dynamic and static ropes for climbing"
+}
+
+### PRODUCTS
+
+# Get all products
+GET {{baseUrl}}/products
+Authorization: Bearer {{adminToken}}
+
+###
+
+# Get single product (La Sportiva Solution)
+GET {{baseUrl}}/products/
+Authorization: Bearer {{adminToken}}
+
+###
+
+# Create a product (admin only)
+POST {{baseUrl}}/products
+Authorization: Bearer {{adminToken}}
+Content-Type: application/json
+
+{
+  "name": "Petzl GriGri",
+  "description": "Belay device with assisted braking",
+  "price": 99.99,
+  "stock": 5,
+  "categoryId": "???"
+}
+
+### ORDERS
+
+# Get my orders (Alice sees only her orders)
+GET {{baseUrl}}/orders
+Authorization: Bearer <ALICE_TOKEN>
+
+###
+
+# Get one of Alice’s orders
+GET {{baseUrl}}/orders/???
+Authorization: Bearer <ALICE_TOKEN>
+
+###
+
+# Create new order (Alice creates)
+POST {{baseUrl}}/orders
+Authorization: Bearer <ALICE_TOKEN>
+Content-Type: application/json
+
+{
+  "items": [
+    { "productId": "???", "quantity": 1 },
+    { "productId": "???", "quantity": 2 }
+  ]
+}
+
+###
+
+# Admin: get all orders
+GET {{baseUrl}}/orders
+Authorization: Bearer {{adminToken}}
+
+###
+
+# Admin: delete order
+DELETE {{baseUrl}}/orders/???
+Authorization: Bearer {{adminToken}}

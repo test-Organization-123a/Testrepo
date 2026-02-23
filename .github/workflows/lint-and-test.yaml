@@ -1,0 +1,32 @@
+name: go-lint-test
+on:
+  pull_request:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  NodejsLinter:
+    name: lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v6
+
+      - run: "npm run lint"
+        working-directory: "Backend/Main"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v6
+
+      - run: "npm run test"
+        working-directory: "Backend/Main"
+
