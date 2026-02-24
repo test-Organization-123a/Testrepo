@@ -5,7 +5,7 @@ A full-featured cross-platform frontend for the ClimbEasy climbing gear rental a
 - Flutter SDK ^3.9.2
 - Dart
 - Provider (State Management)
-- Clean Architecture
+- Clean Architecturedwddwdw
 - Hive (Local Storage)
 - Material Design
 
