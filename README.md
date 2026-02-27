@@ -4,7 +4,7 @@
 
 ## Getting started
 
-To make it easytrhhtrht r3qrq3r3qfor you to geterewqtretwegtrw started with GitLab, here's a list of recommended next steps.
+To make it easytrhhtrht r3qrq3r3qfowdwdwddwdwr you to geterewqtretwegtrw started with GitLab, here's a list of recommended next steps.
 hthhthdswdwdwdwdefa efwwefetfwwetr wevake it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
 
 ## Add your files
