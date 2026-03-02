@@ -4,7 +4,7 @@
 
 ## Getting started
 
-To make it easytrhhtrht r3qrq3r3qfowdwdwddwdwr you tovfv geterewqtdwdwdwredwdwtwegtrw started with GitLab, here's a list of recommended next steps.
+To make it easytrhhtrht r3qrq3r3qfowdwdwddwdwr yodwdwu tovfv geterewqtdwdwdwredwdwtwegtrw started with GitLab, here's a list of recommended next steps.
 hthhthdswdwdwdwdefa efwwefetfwwetr wevake it your ddwd
 ## Add your files
 
