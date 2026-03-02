@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-agent-deployment
+  labels:
+    app: test-agent
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: test-agent
+  template:
+    metadata:
+      labels:
+        app: test-agent
+    spec:
+      containers:
+        - name: web
+          image: nginx:latest
+          ports:
+            - containerPort: 80
