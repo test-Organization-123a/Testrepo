@@ -9,7 +9,7 @@ hthhthdswdwdwdwdefa efwwefetfwwetr wevake it your ddwd
 ## Add your files
 
 - [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existidwng Git repository with the following command:
+- [ ] [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existidwdwddwwng Git repository with the following command:
 dwdwdw
 ```
 cd existing_repo
