@@ -5,7 +5,7 @@
 ## Getting started
 
 To make it easytrhhtrht r3qsbfkjesbfjesbfrq3r3qfowdwdwdFEFEfawefrEFFEdwdwr yodwdwu tovfv geterewdwwqtdwdwdwredwdwtwegtrw started with GitLab, here's a list of recommended next steps.
-hthhthdswdwdwdwdefa efwwefetfwwetr wevake it your efinfeifedfefefewd
+hthhthdswdwdwdwdefa efwwefetfwwetr dwdwdwwevake it your efinfeifedfefefewd
 ## Add your files
 
 - [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
