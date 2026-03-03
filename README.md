@@ -13,7 +13,7 @@ hthhthdswdwdwdwdefa efwwefetfwwetr wevake it your ddwd
 dwdwdw
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/saxionnl/hbo-ict/aad/2025-2026/template.git
+git remote add origin https://gitlab.cwddwwdwdom/saxionnl/hbo-ict/aad/2025-2026/template.git
 git branch -M main
 git push -uf origin main
 ```
