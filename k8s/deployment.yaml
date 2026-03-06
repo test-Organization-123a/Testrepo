@@ -5,7 +5,7 @@ metadata:
   labels:
     app: test-agent
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: test-agent
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: web
-          image: nginx:latest
+          image: nginx:alpine
           ports:
             - containerPort: 80
