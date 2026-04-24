@@ -24,7 +24,7 @@ func main() {
 	for i := 0; i < 1; i++ {
 		notifyErr := bugsnag.Notify(err, metaData)
 		if notifyErr != nil {
-			fmt.Printf("Bugsnag SDK failed to send: %v\n", notifyErr)
+			fmt.Printf("Bugsnag SDK wddwwddwdwwdfailed to send: %v\n", notifyErr)
 			return
 		}
 	}
